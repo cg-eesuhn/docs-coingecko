@@ -1,0 +1,27 @@
+---
+title: Search Pools
+excerpt: This endpoint allows you to **search for pools on a network**
+api:
+  file: on-chain-dex-api-beta.json
+  operationId: search-pools
+deprecated: false
+hidden: false
+metadata:
+  title: ''
+  description: ''
+  robots: index
+next:
+  description: ''
+---
+> 👍 **Tips**
+> 
+> - You may use this endpoint to search for query such as pool contract address, token contract address or token symbol. The endpoint will return matching pools as response.
+> - You may include values such as `page` to specify which page of responses you would like to show.
+
+> 📘 **Notes**
+> 
+> - If the token's market cap is not verified by the team, the API response will return `null` for its market cap value, even though it has a displayed value on GeckoTerminal, which might not be accurate as it often matches the Fully Diluted Valuation (FDV).
+> - Attributes specified in the `include` param will be returned under the top-level `"included"` key.
+> - This endpoint returns up to 20 pools per page. Use the `page` param to navigate more results.
+> - `page`: Pagination beyond 10 pages is available for [Paid Plan](https://www.coingecko.com/en/api/pricing) subscribers (Analyst plan or above).
+> - Cache/Update frequency: every 30 seconds.
