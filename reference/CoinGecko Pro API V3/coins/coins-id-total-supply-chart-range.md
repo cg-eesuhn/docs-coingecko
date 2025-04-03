@@ -16,8 +16,8 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - Cache/Update Frequency: 5 minutes.
-> - The data is provided at daily intervals (00:00:00 UTC).
-> - The last completed UTC day (00:00) is available 35 minutes after midnight on the next UTC day (00:35).
-> - Exclusive for Enterprise Plan Subscribers only.
+>
+> * Cache/Update Frequency: 5 minutes.
+> * The data is provided at daily intervals (00:00:00 UTC).
+> * The last completed UTC day (00:00) is available 35 minutes after midnight on the next UTC day (00:35).
+> * Exclusive for Enterprise Plan Subscribers only.
