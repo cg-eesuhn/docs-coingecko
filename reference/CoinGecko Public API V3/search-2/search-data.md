@@ -16,6 +16,6 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - The responses are sorted in descending order by market cap.
-> - Cache / Update Frequency: every 15 minutes for all the API plans.
+>
+> * The responses are sorted in descending order by market cap.
+> * Cache / Update Frequency: every 15 minutes for all the API plans.
