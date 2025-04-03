@@ -8,16 +8,16 @@ metadata:
 ---
 Thank you for joining CoinGecko API Websocket private pilot test!
 
-Please share your feedback or question directly with [soonaik@coingecko.com](mailto:soonaik@coingecko.com) or <https://t.me/soonegg91>
+Please share your feedback or question directly with [soonaik@coingecko.com](mailto:soonaik@coingecko.com) or [https://t.me/soonegg91](https://t.me/soonegg91)
 
-**Pre-Requisite: **you need to have an active Pro-API key and Websocket access enabled by CoinGecko team. 
+**Pre-Requisite:** you need to have an active Pro-API key and Websocket access enabled by CoinGecko team. 
 
 Kindly contact the CoinGecko team to confirm your maximum limits for **socket connections** and **subscriptions per socket**.
 
-**Current limitation: ** (as of January 27, 2025)
+**Current limitation:** (as of January 27, 2025)
 
-- Subscription events are limited to one token per request.
-- Payload response contain `identifier` data: 
+* Subscription events are limited to one token per request.
+* Payload response contain `identifier` data: 
 
 ```json response (beautified)
 {
@@ -33,10 +33,10 @@ Kindly contact the CoinGecko team to confirm your maximum limits for **socket co
 
 We have provided a script at the bottom section to help you make multiple individual queries and to parse only the message data.
 
-**Upcoming improvements: **
+**Upcoming improvements:**
 
-- Subscription events will support multiple tokens (in array format) per request.
-- The payload response will be reduced and exclude `identifier` data.
+* Subscription events will support multiple tokens (in array format) per request.
+* The payload response will be reduced and exclude `identifier` data.
 
 ```csharp response
 G1,eth,0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,3639.78228844745,3.566,123,31233333.33,1709542750
@@ -55,16 +55,16 @@ wss://stream.coingecko.com/v1?x_cg_pro_api_key=CG-YOUR_KEY
 | Websocket Channel (Path) | Channel Code | Details                                                                                                                 |
 | :----------------------- | :----------- | :---------------------------------------------------------------------------------------------------------------------- |
 | OnchainSimpleTokenPrice  | G1           | Subscribe to receive real-time price updates for tokens, as seen on [GeckoTerminal.com](https://www.geckoterminal.com/) |
-| {TBC}                    | G2           | {TBC}                                                                                                                   |
-| {TBC}                    | C1           | {TBC}                                                                                                                   |
+| \{TBC}                   | G2           | \{TBC}                                                                                                                  |
+| \{TBC}                   | C1           | \{TBC}                                                                                                                  |
 
 **Notes:**
 
-- **Real-Time Data: **Once subscribed, you will start receiving real-time data updates based on your subscriptions. The received data will be in CSV format and will contain the relevant information for the subscribed event.
-- **Close Connection:** When you're done receiving updates or want to close the WebSocket connection, you can gracefully close the connection.
-- **Security Considerations:** Ensure that you keep your Pro-API key secure and do not expose it publicly in your code or any public repositories.
+* **Real-Time Data:** Once subscribed, you will start receiving real-time data updates based on your subscriptions. The received data will be in CSV format and will contain the relevant information for the subscribed event.
+* **Close Connection:** When you're done receiving updates or want to close the WebSocket connection, you can gracefully close the connection.
+* **Security Considerations:** Ensure that you keep your Pro-API key secure and do not expose it publicly in your code or any public repositories.
 
-## Channel #G1: onchain_simple_token_price
+## Channel #G1: onchain\_simple\_token\_price
 
 This channel allows you to subscribe to real-time updates of price changes for token.
 
@@ -120,21 +120,21 @@ channel_type,network_id,token_address,usd_price,usd_price_24h_change_percentage,
 
 Delimiter: `,`
 
-- Each field in the payload is separated by a comma.
-- Ensure you parse the payload correctly to extract individual values.
+* Each field in the payload is separated by a comma.
+* Ensure you parse the payload correctly to extract individual values.
 
 ### Payload Fields
 
-| **Field**                       | **Type** | **Description**                                                                                                            | **Example**                                |
-| ------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| channel_type                    | string   | Indicates the type of channel subscribed to.                                                                               | G1                                         |
-| network_id                      | string   | Identifier of the blockchain network. Check full list of ids [here](https://api.geckoterminal.com/api/v2/networks?page=1). | eth                                        |
-| token_address                   | string   | Contract address of the token on the blockchain.                                                                           | 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 |
-| usd_price                       | float    | Current token price in USD.                                                                                                | 3639.78228844745                           |
-| usd_price_24h_change_percentage | float    | Percentage change in token price over the last 24 hours.                                                                   | 3.566                                      |
-| usd_market_cap                  | float    | Market capitalization in USD.                                                                                              | 123                                        |
-| usd_24h_vol                     | float    | 24-hour trading volume in USD.                                                                                             | 31233333.33                                |
-| last_updated_at                 | integer  | Timestamp of the last data update in Unix time.                                                                            | 1709542750                                 |
+| **Field**                           | **Type** | **Description**                                                                                                            | **Example**                                |
+| ----------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| channel\_type                       | string   | Indicates the type of channel subscribed to.                                                                               | G1                                         |
+| network\_id                         | string   | Identifier of the blockchain network. Check full list of ids [here](https://api.geckoterminal.com/api/v2/networks?page=1). | eth                                        |
+| token\_address                      | string   | Contract address of the token on the blockchain.                                                                           | 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 |
+| usd\_price                          | float    | Current token price in USD.                                                                                                | 3639.78228844745                           |
+| usd\_price\_24h\_change\_percentage | float    | Percentage change in token price over the last 24 hours.                                                                   | 3.566                                      |
+| usd\_market\_cap                    | float    | Market capitalization in USD.                                                                                              | 123                                        |
+| usd\_24h\_vol                       | float    | 24-hour trading volume in USD.                                                                                             | 31233333.33                                |
+| last\_updated\_at                   | integer  | Timestamp of the last data update in Unix time.                                                                            | 1709542750                                 |
 
 Tips: The Websocket payload will use the value `null` when specific data is unavailable. Ensure your application is capable of handling null values for fields that may not always have data. 
 
