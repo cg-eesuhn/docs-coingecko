@@ -16,9 +16,9 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may include values such as `per_page` and `page` to specify how many results you would like to show in the responses per page and which page of responses you would like to show.
+>
+> * You may include values such as `per_page` and `page` to specify how many results you would like to show in the responses per page and which page of responses you would like to show.
 
 > 📘 **Notes**
-> 
-> - Cache / Update Frequency: every 60 seconds for all the API plans.
+>
+> * Cache / Update Frequency: every 60 seconds for all the API plans.
