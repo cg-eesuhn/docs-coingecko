@@ -16,7 +16,7 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - CoinGecko equivalent page: <https://www.coingecko.com/en/new-cryptocurrencies>.
-> - Cache/Update Frequency: Every 30 seconds.
-> - Exclusive for Paid Plan Subscribers (Analyst, Lite, Pro and Enterprise).
+>
+> * CoinGecko equivalent page: [https://www.coingecko.com/en/new-cryptocurrencies](https://www.coingecko.com/en/new-cryptocurrencies).
+> * Cache/Update Frequency: Every 30 seconds.
+> * Exclusive for Paid Plan Subscribers (Analyst, Lite, Pro and Enterprise).
