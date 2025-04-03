@@ -17,7 +17,7 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - Cache/Update Frequency: 5 minutes.
-> - A token will only be included in the list if the contract address is added by CoinGecko team. If you identified any missing token, you may submit a request [here](https://support.coingecko.com/hc/en-us/requests/new).
-> - Exclusive for Enterprise Plan Subscribers only.
+>
+> * Cache/Update Frequency: 5 minutes.
+> * A token will only be included in the list if the contract address is added by CoinGecko team. If you identified any missing token, you may submit a request [here](https://support.coingecko.com/hc/en-us/requests/new).
+> * Exclusive for Enterprise Plan Subscribers only.
