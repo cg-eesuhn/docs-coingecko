@@ -16,6 +16,6 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may use this endpoint to query the list of networks with network ID for other endpoints that contain params like `network`.
-> - You may include values such as `page` to specify which page of responses you would like to show.
+>
+> * You may use this endpoint to query the list of networks with network ID for other endpoints that contain params like `network`.
+> * You may include values such as `page` to specify which page of responses you would like to show.
