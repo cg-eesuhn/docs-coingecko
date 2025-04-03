@@ -16,9 +16,9 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may use this endpoint to query the list of exchanges for other endpoints that contain params like `id` (derivatives exchange's ID)
+>
+> * You may use this endpoint to query the list of exchanges for other endpoints that contain params like `id` (derivatives exchange's ID)
 
 > 📘 **Notes**
-> 
-> - Cache / Update Frequency: every 5 minutes for all the API plans.
+>
+> * Cache / Update Frequency: every 5 minutes for all the API plans.
