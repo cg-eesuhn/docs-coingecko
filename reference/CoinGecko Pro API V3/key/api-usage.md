@@ -16,5 +16,5 @@ next:
   description: ''
 ---
 > 📘 Notes
-> 
-> For a more comprehensive overview of your API usage, please log in to <https://www.coingecko.com/en/developers/dashboard>.
+>
+> For a more comprehensive overview of your API usage, please log in to [https://www.coingecko.com/en/developers/dashboard](https://www.coingecko.com/en/developers/dashboard).
