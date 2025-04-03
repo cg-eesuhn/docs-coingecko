@@ -21,7 +21,7 @@ The server responds to a user’s request by issuing status codes when the reque
 | `403` (Forbidden)             | This is likely indicating that your access is blocked by our server, and we're unable to authorize your request                                                                                                                                       |
 | `429` (Too many requests)     | This is likely indicating that the rate limit has reached. The user should reduce the number of calls made, or consider scaling their service plan that has much higher rate limits and call credits                                                  |
 | `500` (Internal Server Error) | This is a generic error response indicating that the server has encountered an unexpected issue that prevented it from fulfilling the request                                                                                                         |
-| `503` (Service Unavailable)   | The service is currently unavailable. Please check the API status and updates on <https://status.coingecko.com>                                                                                                                                       |
+| `503` (Service Unavailable)   | The service is currently unavailable. Please check the API status and updates on [https://status.coingecko.com](https://status.coingecko.com)                                                                                                         |
 | `1020` (Access Denied)        | This is due to violation of CDN firewall rule                                                                                                                                                                                                         |
 | `10002` (Incorrect API Key)   | You have provided incorrect API key credentials. Please check your keys in developer dashboard and ensure that your request is authorized                                                                                                             |
 | `10005`                       | You may not have access to this endpoint. e.g. 'This request is limited Pro API subscribers'. You may wanna subscribe to a paid plan [here](https://www.coingecko.com/en/api/pricing)                                                                 |
@@ -32,9 +32,9 @@ The server responds to a user’s request by issuing status codes when the reque
 ## Rate Limit
 
 > 📘 **Notes**
-> 
-> - If you're using the Public API with Google Sheet and got hit with error, this is due to the IP sharing among Google Sheet users, and we have no control over this. If you need reliable performance, please **register for a demo account** or **subscribe to a paid plan** that comes with dedicated infra (API key) to prevent rate limit issues.
-> - For more details, please go to the page [here](https://www.coingecko.com/en/api/pricing).
+>
+> * If you're using the Public API with Google Sheet and got hit with error, this is due to the IP sharing among Google Sheet users, and we have no control over this. If you need reliable performance, please **register for a demo account** or **subscribe to a paid plan** that comes with dedicated infra (API key) to prevent rate limit issues.
+> * For more details, please go to the page [here](https://www.coingecko.com/en/api/pricing).
 
-- For Public API user (Demo plan), the rate limit is ~30 calls per minutes and it varies depending on the traffic size.
-- If you're Pro API user (any paid plan), the rate limit is depending on the paid plan that you're subscribed to.
+* For Public API user (Demo plan), the rate limit is \~30 calls per minutes and it varies depending on the traffic size.
+* If you're Pro API user (any paid plan), the rate limit is depending on the paid plan that you're subscribed to.
