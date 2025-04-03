@@ -13,10 +13,10 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - Pro API Key is only available for [CoinGecko API paid plan ](https://www.coingecko.com/en/api/pricing)subscribers, the root URL for CoinGecko Pro API must be `https://pro-api.coingecko.com/api/v3/`.
-> - You are recommended to store the API key securely in your own backend and use a proxy to insert the key into the request URL.
-> - It's highly recommended to use the Headers method when making API requests for better security. Using query string parameters can risk exposing your API key.
+>
+> * Pro API Key is only available for [CoinGecko API paid plan ](https://www.coingecko.com/en/api/pricing)subscribers, the root URL for CoinGecko Pro API must be `https://pro-api.coingecko.com/api/v3/`.
+> * You are recommended to store the API key securely in your own backend and use a proxy to insert the key into the request URL.
+> * It's highly recommended to use the Headers method when making API requests for better security. Using query string parameters can risk exposing your API key.
 
 <br />
 
@@ -39,9 +39,9 @@ If this is your first time using the Pro API key, you can supply API Key to the 
 You can now use the Pro-API key (exclusive to any paid plan subscriber) to call on-chain DEX data powered by [GeckoTerminal](https://www.geckoterminal.com/).
 
 > 📘 **Notes**
-> 
-> - Authentication method for on-chain endpoints is exactly same as other endpoints.
-> - When using the CG Pro API to access on-chain DEX data, include the `/onchain` endpoint path in the request.
+>
+> * Authentication method for on-chain endpoints is exactly same as other endpoints.
+> * When using the CG Pro API to access on-chain DEX data, include the `/onchain` endpoint path in the request.
 
 | Authentication Method  | Example using [Simple Token Price](/reference/onchain-simple-price) Endpoint                                                                                                  |
 | :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -52,6 +52,6 @@ You can now use the Pro-API key (exclusive to any paid plan subscriber) to call 
 
 ## API Key Usage Credits
 
-- Each request made to any endpoint counts as a single call (1 call = 1 credit).
-- Your monthly credit & rate limit are determined by the paid plan to which you subscribe. For more details, please refer to this [page](https://www.coingecko.com/en/api/pricing).
-- To check the API usage, please go to the [developer dashboard](https://www.coingecko.com/en/developers/dashboard) or follow the guide [here](/reference/setting-up-your-api-key#4-api-usage-report).
+* Each request made to any endpoint counts as a single call (1 call = 1 credit).
+* Your monthly credit & rate limit are determined by the paid plan to which you subscribe. For more details, please refer to this [page](https://www.coingecko.com/en/api/pricing).
+* To check the API usage, please go to the [developer dashboard](https://www.coingecko.com/en/developers/dashboard) or follow the guide [here](/reference/setting-up-your-api-key#4-api-usage-report).
