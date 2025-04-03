@@ -16,8 +16,8 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - The endpoint response only includes coins with a 24-hour trading volume of at least $50,000.
-> - CoinGecko equivalent page: <https://www.coingecko.com/en/crypto-gainers-losers>.
-> - Cache/Update Frequency: Every 5 minutes.
-> - Exclusive for Paid Plan Subscribers (Analyst, Lite, Pro and Enterprise).
+>
+> * The endpoint response only includes coins with a 24-hour trading volume of at least $50,000.
+> * CoinGecko equivalent page: [https://www.coingecko.com/en/crypto-gainers-losers](https://www.coingecko.com/en/crypto-gainers-losers).
+> * Cache/Update Frequency: Every 5 minutes.
+> * Exclusive for Paid Plan Subscribers (Analyst, Lite, Pro and Enterprise).
