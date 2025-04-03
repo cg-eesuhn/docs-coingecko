@@ -14,6 +14,6 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may use this endpoint to query the list of asset platforms for other endpoints that contain params like `id` or`ids`(asset platforms).
-> - You may include NFT at the `filter` params to get the list of NFT-support asset platforms on CoinGecko.
+>
+> * You may use this endpoint to query the list of asset platforms for other endpoints that contain params like `id` or`ids`(asset platforms).
+> * You may include NFT at the `filter` params to get the list of NFT-support asset platforms on CoinGecko.
