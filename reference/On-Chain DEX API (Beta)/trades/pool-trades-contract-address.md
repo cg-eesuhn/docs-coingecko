@@ -16,5 +16,5 @@ next:
   description: ''
 ---
 > 📘 Notes
-> 
-> - Cache/Update Frequency: every 30 seconds for Pro API (Analyst, Lite, Pro, Enterprise).
+>
+> * Cache/Update Frequency: every 30 seconds for Pro API (Analyst, Lite, Pro, Enterprise).
