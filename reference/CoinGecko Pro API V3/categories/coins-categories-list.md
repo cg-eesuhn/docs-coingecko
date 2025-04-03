@@ -14,11 +14,11 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may use this endpoint to query the list of categories for other endpoints that contain params like `category`.
+>
+> * You may use this endpoint to query the list of categories for other endpoints that contain params like `category`.
 
 > 📘 **Notes**
-> 
-> - CoinGecko Equivalent Page: <https://www.coingecko.com/en/categories>.
-> - Cache / Update Frequency:  every 5 minutes for all the API plans.
-> - CoinGecko categories are different from [GeckoTerminal categories](https://docs.coingecko.com/reference/categories-list).
+>
+> * CoinGecko Equivalent Page: [https://www.coingecko.com/en/categories](https://www.coingecko.com/en/categories).
+> * Cache / Update Frequency:  every 5 minutes for all the API plans.
+> * CoinGecko categories are different from [GeckoTerminal categories](https://docs.coingecko.com/reference/categories-list).
