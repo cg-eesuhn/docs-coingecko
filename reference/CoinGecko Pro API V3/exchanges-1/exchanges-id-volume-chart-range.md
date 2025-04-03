@@ -16,9 +16,9 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - You can query the historical volume chart data of **derivatives exchanges** with this endpoint as well.
-> - The data interval for this endpoint is fixed at daily.
-> - The date range between `from` and `to` must be within 31 days.
-> - Cache/Update Frequency: 5 minutes
-> - Exclusive for Paid Plan Subscribers (Analyst, Lite, Pro and Enterprise)
+>
+> * You can query the historical volume chart data of **derivatives exchanges** with this endpoint as well.
+> * The data interval for this endpoint is fixed at daily.
+> * The date range between `from` and `to` must be within 31 days.
+> * Cache/Update Frequency: 5 minutes
+> * Exclusive for Paid Plan Subscribers (Analyst, Lite, Pro and Enterprise)
