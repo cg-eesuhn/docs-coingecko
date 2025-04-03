@@ -16,5 +16,5 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - The responses are sorted in descending order based on total holdings.
+>
+> * The responses are sorted in descending order based on total holdings.
