@@ -16,9 +16,9 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may use this endpoint to query the list of currencies for other endpoints that contain params like `vs_currencies`.
+>
+> * You may use this endpoint to query the list of currencies for other endpoints that contain params like `vs_currencies`.
 
 > 📘 **Notes**
-> 
-> - Cache/Update Frequency: every 60 seconds for Public API.
+>
+> * Cache/Update Frequency: every 60 seconds for Public API.
