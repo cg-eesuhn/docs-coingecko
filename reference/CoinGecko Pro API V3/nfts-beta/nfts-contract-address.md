@@ -17,10 +17,10 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may also obtain the asset platform ID and contract address through [/nfts/list](/reference/nfts-list) endpoint.
+>
+> * You may also obtain the asset platform ID and contract address through [/nfts/list](/reference/nfts-list) endpoint.
 
 > 📘 **Notes**
-> 
-> - Solana NFT & Art Blocks are not supported for this endpoint, please use [/nfts/{id}](/reference/nfts-id) endpoint instead.
-> - Cache / Update Frequency: every 60 seconds for all the API plans.
+>
+> * Solana NFT & Art Blocks are not supported for this endpoint, please use [/nfts/\{id}](/reference/nfts-id) endpoint instead.
+> * Cache / Update Frequency: every 60 seconds for all the API plans.
