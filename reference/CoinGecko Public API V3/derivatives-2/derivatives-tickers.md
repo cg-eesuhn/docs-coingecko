@@ -16,6 +16,6 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - Data for `open_interest` and `volume_24h` in the endpoint responses are in USD.
-> - Cache / Update Frequency: every 30 seconds for all the API plans.
+>
+> * Data for `open_interest` and `volume_24h` in the endpoint responses are in USD.
+> * Cache / Update Frequency: every 30 seconds for all the API plans.
