@@ -16,6 +16,6 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - Cache/Update Frequency: every 30 seconds.
-> - Exclusive for Paid Plan Subscribers (Analyst, Lite, Pro and Enterprise).
+>
+> * Cache/Update Frequency: every 30 seconds.
+> * Exclusive for Paid Plan Subscribers (Analyst, Lite, Pro and Enterprise).
