@@ -16,9 +16,9 @@ next:
   description: ''
 ---
 > ⚠️ Important Note
-> 
+>
 > This documentation is exclusively for [Paid Plan](https://www.coingecko.com/en/api/pricing) Subscribers (users with Pro-API key).
-> 
+>
 > To access the Public API Documentation, please refer to [v3.0.1](/v3.0.1/reference/introduction) instead.
 
 Started in 2014, CoinGecko is the world's largest independent crypto data aggregator that is integrated with more than 1,000 crypto exchanges and lists more than 17,000 coins. CoinGecko API offers the most comprehensive and reliable crypto market data through RESTful JSON endpoints. 
@@ -29,12 +29,12 @@ Thousands of forward-thinking projects, Web3 developers, researchers, institutio
 
 Here are some of the **common use cases** for clients who use CoinGecko API:
 
-- Crypto Exchanges (CEX, DEX), Trading Apps
-- Wallets (Hot, Cold)
-- Data Aggregator, Crypto Screener, Analytics Dashboard
-- Block Explorer, Portfolio Tracker
-- DeFi Protocols, NFT Marketplaces, Digital Bank
-- Backtesting Trading Strategy
-- Accounting, Tax, Audit, HR Payroll
-- Research & Analysis: Media, Institution, Academic, VC, Financial
-- Oracles, Bots, Payments, E-commerce
+* Crypto Exchanges (CEX, DEX), Trading Apps
+* Wallets (Hot, Cold)
+* Data Aggregator, Crypto Screener, Analytics Dashboard
+* Block Explorer, Portfolio Tracker
+* DeFi Protocols, NFT Marketplaces, Digital Bank
+* Backtesting Trading Strategy
+* Accounting, Tax, Audit, HR Payroll
+* Research & Analysis: Media, Institution, Academic, VC, Financial
+* Oracles, Bots, Payments, E-commerce
