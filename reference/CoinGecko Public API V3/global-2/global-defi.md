@@ -16,5 +16,5 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - Cache / Update Frequency: every 60 minutes for all the API plans.
+>
+> * Cache / Update Frequency: every 60 minutes for all the API plans.
