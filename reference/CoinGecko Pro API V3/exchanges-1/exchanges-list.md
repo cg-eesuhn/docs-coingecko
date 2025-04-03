@@ -14,10 +14,10 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may use this endpoint to query the list of exchanges including **derivatives exchanges** for other endpoints that contain params like `id`(exchange ID).
+>
+> * You may use this endpoint to query the list of exchanges including **derivatives exchanges** for other endpoints that contain params like `id`(exchange ID).
 
 > 📘 **Notes**
-> 
-> - There is no pagination required for this endpoint.
-> - Cache / Update Frequency:  every 5 minutes for all the API plans.
+>
+> * There is no pagination required for this endpoint.
+> * Cache / Update Frequency:  every 5 minutes for all the API plans.
