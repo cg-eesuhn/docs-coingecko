@@ -14,9 +14,9 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may use this endpoint to convert the response data, which is originally in BTC, to other currencies.
+>
+> * You may use this endpoint to convert the response data, which is originally in BTC, to other currencies.
 
 > 📘 **Notes**
-> 
-> - Cache / Update Frequency: every 5 minutes for all the API plans.
+>
+> * Cache / Update Frequency: every 5 minutes for all the API plans.
