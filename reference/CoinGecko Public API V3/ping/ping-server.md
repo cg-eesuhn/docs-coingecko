@@ -14,5 +14,5 @@ next:
   description: ''
 ---
 > 📘 **Notes**
-> 
-> - You can also go to [status.coingecko.com](https://status.coingecko.com/) to check the API server status and further maintenance notices.
+>
+> * You can also go to [status.coingecko.com](https://status.coingecko.com/) to check the API server status and further maintenance notices.
