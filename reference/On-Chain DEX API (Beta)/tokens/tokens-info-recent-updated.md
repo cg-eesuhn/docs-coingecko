@@ -16,10 +16,10 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may add values such as network in the include param to include network along with the updated tokens list.
+>
+> * You may add values such as network in the include param to include network along with the updated tokens list.
 
 > 📘 **Notes**
-> 
-> - Attributes specified in the `include` param will be returned under the top-level `"included"` key.
-> - Cache/Update frequency: every 30 seconds.
+>
+> * Attributes specified in the `include` param will be returned under the top-level `"included"` key.
+> * Cache/Update frequency: every 30 seconds.
