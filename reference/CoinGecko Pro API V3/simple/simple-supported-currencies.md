@@ -16,9 +16,9 @@ next:
   description: ''
 ---
 > 👍 **Tips**
-> 
-> - You may use this endpoint to query the list of currencies for other endpoints that contain params like `vs_currencies`.
+>
+> * You may use this endpoint to query the list of currencies for other endpoints that contain params like `vs_currencies`.
 
 > 📘 **Notes**
-> 
-> - Cache/Update Frequency: every 30 seconds for Pro API (Analyst, Lite, Pro, Enterprise).
+>
+> * Cache/Update Frequency: every 30 seconds for Pro API (Analyst, Lite, Pro, Enterprise).
