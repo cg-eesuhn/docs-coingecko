@@ -12,11 +12,11 @@ next:
 ---
 > 📘 Notes
 >
-> For Pro-API users (any [paid plan](https://www.coingecko.com/en/api/pricing) subscribers), you get to access all the endpoints listed below, except those that marked with 👑. 
+> For Pro-API users (any [paid plan](https://www.coingecko.com/en/api/pricing) subscribers), you get to access all the endpoints listed below, except those that marked with 👑.
 >
 > * Some endpoints may have parameters or data access that are exclusive to different plan subscribers, please refer to the endpoint reference for details.
 > * In the API Reference section, the distinction between Paid Plan and Enterprise Plan endpoint access will be marked as below:
->   * 💼 — exclusive for any [Paid Plan](https://www.coingecko.com/en/api/pricing) subscribers: Analyst / Lite / Pro 
+>   * 💼 — exclusive for any [Paid Plan](https://www.coingecko.com/en/api/pricing) subscribers: Analyst / Lite / Pro
 >   * 👑 — exclusive for [Enterprise Plan](https://landing.coingecko.com/api-for-business/) subscribers only.
 
 <br />
@@ -117,6 +117,7 @@ next:
 | [/onchain/networks/new\_pools](/reference/latest-pools-list)                                     | Query all the latest pools across all networks on GeckoTerminal                                                                                                          |
 | 🔥 💼 [/onchain/pools/megafilter](/reference/pools-megafilter)                                   | Query pools based on various filters across all networks on GeckoTerminal                                                                                                |
 | [/onchain/search/pools](/reference/search-pools)                                                 | Search for pools on a network                                                                                                                                            |
+| 💼 [/onchain/pools/trending\_search](/reference/trending-search-pools)                           | Query all the trending search pools across all networks on GeckoTerminal                                                                                                 |
 | [/onchain/networks/../tokens/../pools](/reference/top-pools-contract-address)                    | Query top pools based on the provided token contract address on a network                                                                                                |
 | [/onchain/networks/../tokens/\{address}](/reference/token-data-contract-address)                 | Query specific token data based on the provided token contract address on a network                                                                                      |
 | [/onchain/networks/../tokens/multi/..](/reference/tokens-data-contract-addresses)                | Query multiple tokens data based on the provided token contract addresses on a network                                                                                   |
