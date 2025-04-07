@@ -10,7 +10,7 @@ metadata:
     through its API, which is used by various clients for purposes such as
     trading, analytics, research, and more.
   image: >-
-    https://files.readme.io/629ec0a10e1040a5268830ec3d791fe8820c0fc78ef35d4399cf79acb2f430e1-API_Docs__Guides.png
+    https://files.readme.io/01c6ef20f8747b28bfe0cd81baa0f550f0036202c3289d0255f111972be6a45f-86e4e9d2-0f8b-11f0-ac39-0242ac120004.avif
   robots: index
 next:
   description: ''
