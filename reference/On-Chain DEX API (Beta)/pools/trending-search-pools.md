@@ -8,3 +8,7 @@ api:
   operationId: trending-search-pools
 hidden: false
 ---
+> 📘 **Notes**
+>
+> * Attributes specified in the `include` param will be returned under the top-level "included" key.
+> * Cache/Update frequency: every 60 seconds.
