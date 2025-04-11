@@ -43,6 +43,11 @@ Notes:
 
 This channel allows you to subscribe to real-time updates of price changes for token.
 
+* Lookup by Network + Token Address
+* It will return price & market data of the top pool of the specified token
+
+<br />
+
 ## 1. Establish Connection to Websocket
 
 ```json wss
@@ -119,7 +124,7 @@ The output keys will be in random order.
 | v  | usd\_24h\_vol                       | float   | 24-hour trading volume in USD.                                                                                             | 31233333.33                                |
 | t  | last\_updated\_at                   | integer | Timestamp of the last data update in Unix time.                                                                            | 1709542750                                 |
 
-Tips: The Websocket payload will use the value `null` when specific data is unavailable. Ensure your application is capable of handling null values for fields that may not always have data. 
+Tips: The Websocket payload will use the value `null` when specific data is unavailable. Ensure your application is capable of handling null values for fields that may not always have data.
 
 <br />
 
