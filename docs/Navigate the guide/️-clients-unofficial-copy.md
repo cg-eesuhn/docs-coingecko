@@ -17,7 +17,7 @@ next:
 
 ### Postman Collection
 
-[\[BETA\] CoinGecko API V3 — Public Collection](https://www.postman.com/coingecko/workspace/coingecko/documentation/20937233-8ed5062b-e12d-4fef-b5e3-ade9bc9b1e5f)
+[(BETA) CoinGecko API V3 — Public Collection](https://www.postman.com/coingecko/workspace/coingecko/documentation/20937233-8ed5062b-e12d-4fef-b5e3-ade9bc9b1e5f)
 
 ### Wrapper
 
