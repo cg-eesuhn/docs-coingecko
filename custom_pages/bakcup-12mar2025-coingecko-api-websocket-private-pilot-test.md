@@ -1,5 +1,5 @@
 ---
-title: '[Bakcup: 12Mar2025] CoinGecko API - Websocket (Private Pilot Test)'
+title: '[Backup: 12Mar2025] CoinGecko API - Websocket (Private Pilot Test)'
 fullscreen: false
 hidden: true
 metadata:
