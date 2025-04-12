@@ -10,14 +10,14 @@ Thank you for joining CoinGecko API Websocket private pilot test!
 
 Please share your feedback or question directly with [soonaik@coingecko.com](mailto:soonaik@coingecko.com) or [https://t.me/soonegg91](https://t.me/soonegg91)
 
-**Pre-Requisite:** you need to have an active Pro-API key and Websocket access enabled by CoinGecko team. 
+**Pre-Requisite:** you need to have an active Pro-API key and Websocket access enabled by CoinGecko team.
 
 Kindly contact the CoinGecko team to confirm your maximum limits for **socket connections** and **subscriptions per socket**.
 
 **Current limitation:** (as of January 27, 2025)
 
 * Subscription events are limited to one token per request.
-* Payload response contain `identifier` data: 
+* Payload response contain `identifier` data:
 
 ```json response (beautified)
 {
@@ -136,7 +136,7 @@ Delimiter: `,`
 | usd\_24h\_vol                       | float    | 24-hour trading volume in USD.                                                                                             | 31233333.33                                |
 | last\_updated\_at                   | integer  | Timestamp of the last data update in Unix time.                                                                            | 1709542750                                 |
 
-Tips: The Websocket payload will use the value `null` when specific data is unavailable. Ensure your application is capable of handling null values for fields that may not always have data. 
+Tips: The Websocket payload will use the value `null` when specific data is unavailable. Ensure your application is capable of handling null values for fields that may not always have data.
 
 ### # 3 Un-subscribe to stream onchain simple price data
 
