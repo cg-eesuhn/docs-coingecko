@@ -2165,6 +2165,21 @@ paths:
         This endpoint allows you **query trending search coins, NFTs and
         categories on CoinGecko in the last 24 hours**
       operationId: trending-search
+      parameters:
+        - name: show_max
+          in: query
+          description: >-
+            show max number of results available for the given type
+            <br> Available values: `coins`, `nfts`, `categories`
+            <br> Example: `coins` or `coins,nfts,categories`
+          required: false
+          schema:
+            type: string
+          examples:
+            one value:
+              value: coins
+            multiple values:
+              value: coins,nfts,categories
       responses:
         '200':
           description: List trending coins by most popular first
