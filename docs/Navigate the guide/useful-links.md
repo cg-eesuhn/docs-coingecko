@@ -28,14 +28,14 @@ next:
 
 ### Public API Swagger JSON
 
-* [https://docs.coingecko.com/openapi/65bf9cabb0951b0072e2cade](https://docs.coingecko.com/openapi/65bf9cabb0951b0072e2cade)
+* [coingecko-public-api-v3.json](https://raw.githubusercontent.com/cg-eesuhn/docs-coingecko/refs/heads/v3.0.1/reference/coingecko-public-api-v3.json)
 
 ### Pro API Swagger JSON
 
 * #### CoinGecko API Endpoints
-  [https://docs.coingecko.com/openapi/6584ea6ce07e130056b1af99](https://docs.coingecko.com/openapi/6584ea6ce07e130056b1af99)
+  [coingecko-pro-api-v3.json](https://raw.githubusercontent.com/cg-eesuhn/docs-coingecko/refs/heads/v3.1.1/reference/coingecko-pro-api-v3.json)
 * #### Onchain DEX API (GeckoTerminal) Endpoints
-  [https://docs.coingecko.com/openapi/6585013ec2907b0031346aa4](https://docs.coingecko.com/openapi/6585013ec2907b0031346aa4)
+  [on-chain-dex-api-beta.json](https://raw.githubusercontent.com/cg-eesuhn/docs-coingecko/refs/heads/v3.1.1/reference/on-chain-dex-api-beta.json)
 
 ### Subscribe CoinGecko API newsletter update
 
