@@ -1,2 +1,6 @@
+# ReadMe
 .DS_Store
 Thumbs.db
+
+# Bun
+node_modules
