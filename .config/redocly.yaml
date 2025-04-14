@@ -1,0 +1,12 @@
+extends:
+  - recommended
+
+rules:
+  no-invalid-media-type-examples:
+    severity: error
+  operation-4xx-response:
+    severity: off
+  no-ambiguous-paths:
+    severity: off
+  info-license:
+    severity: off
