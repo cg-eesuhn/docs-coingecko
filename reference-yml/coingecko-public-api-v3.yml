@@ -288,6 +288,41 @@ paths:
               value: bitcoin
             multiple values:
               value: bitcoin,ethereum
+        - name: names
+          in: query
+          description: >-
+            coins' names, comma-separated if querying more than 1 coin.
+          required: false
+          schema:
+            type: string
+          examples:
+            one value:
+              value: Bitcoin
+            multiple values:
+              value: Bitcoin,Ethereum
+        - name: symbols
+          in: query
+          description: >-
+            coins' symbols, comma-separated if querying more than 1 coin.
+          required: false
+          schema:
+            type: string
+          examples:
+            one value:
+              value: btc
+            multiple values:
+              value: btc,eth
+        - name: include_tokens
+          in: query
+          description: >-
+            for `symbols` lookups, specify `all` to include all matching tokens
+            <br> Default `top` returns top-ranked tokens (by market cap or volume)
+          required: false
+          schema:
+            type: string
+            enum:
+              - top
+              - all
         - name: category
           in: query
           description: >-
