@@ -1,4 +1,8 @@
-import chalk from 'chalk';
+const ANSI_RESET = '\x1b[0m';
+const ANSI_BG_RED = '\x1b[41m';
+const ANSI_BG_YELLOW = '\x1b[43m';
+const ANSI_BG_MAGENTA = '\x1b[45m';
+const ANSI_BG_GREEN = '\x1b[42m';
 
 /**
  * Prints an error message with a red background for the "ERROR" label.
@@ -6,7 +10,7 @@ import chalk from 'chalk';
  * @param m The error message to print.
  */
 function printError(m: string): void {
-  console.log(`${chalk.bgRed('ERROR')}${chalk.reset('')} ${m}`);
+  console.log(`${ANSI_BG_RED}ERROR${ANSI_RESET} ${m}`);
 }
 
 /**
@@ -15,7 +19,7 @@ function printError(m: string): void {
  * @param m The warning message to print.
  */
 function printWarning(m: string): void {
-  console.log(`${chalk.bgYellow('WARNING')}${chalk.reset('')} ${m}`);
+  console.log(`${ANSI_BG_YELLOW}WARNING${ANSI_RESET} ${m}`);
 }
 
 /**
@@ -24,7 +28,7 @@ function printWarning(m: string): void {
  * @param m The info message to print.
  */
 function printInfo(m: string): void {
-  console.log(`${chalk.bgMagenta('INFO')}${chalk.reset('')} ${m}`);
+  console.log(`${ANSI_BG_MAGENTA}INFO${ANSI_RESET} ${m}`);
 }
 
 /**
@@ -33,7 +37,7 @@ function printInfo(m: string): void {
  * @param m The success message to print.
  */
 function printSuccess(m: string): void {
-  console.log(`${chalk.bgGreen('SUCCESS')}${chalk.reset('')} ${m}`);
+  console.log(`${ANSI_BG_GREEN}SUCCESS${ANSI_RESET} ${m}`);
 }
 
 export { printError, printWarning, printInfo, printSuccess };
