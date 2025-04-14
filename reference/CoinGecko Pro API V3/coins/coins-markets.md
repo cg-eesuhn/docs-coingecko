@@ -17,11 +17,14 @@ next:
 ---
 > 👍 **Tips**
 >
-> * You may specify the coins’ IDs in `ids` parameter if you want to retrieve market data for specific coins only instead of the whole list.
-> * You may also provide value in `category` to filter the responses based on coin's category.
-> * You can use `per_page` and `page` values to control the number of results per page and specify which page of results you want to display in the responses.
+> * You can retrieve specific coins using their unique `ids`, `names`, or `symbols` instead of returning the whole list.
+> * To filter results based on the coin's category, use the `category` param (refer to [`/coins/categories/list`](/reference/coins-categories-list) for available categories).
+> * Use the `per_page` and `page` params to manage the number of results you receive and navigate through the data.
 
 > 📘 **Notes**
 >
-> * If you provide values for both `category` and `ids` parameters, the `category` parameter will be prioritized over the `ids` parameter.
+> * When multiple lookup params are provided, the following priority order is applied: `category` (highest) > `ids` > `names` > `symbols` (lowest).
+> * When searching by `name`, you need to URL-encode any spaces (e.g. `"Binance Coin"` becomes `"Binance%20Coin"`).
+> * The `include_tokens=all` param is exclusively for use with the `symbols` lookup and is limited to maximum of 50 symbols per request.
+> * Wildcard searches are not supported for lookup params (`ids`, `names`, `symbols`).
 > * Cache/Update Frequency: every 45 seconds for Pro API (Analyst, Lite, Pro, Enterprise).
