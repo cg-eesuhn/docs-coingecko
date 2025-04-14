@@ -1,9 +1,35 @@
 # `docs-coingecko` — CoinGecko OpenAPI Specs (OAS) + Markdowns
 
+> [!WARNING]
+> This repository is intended for editing **OAS only**, NOT markdowns.
+
+> [!IMPORTANT]
+> This version corresponds to [CoinGecko Pro API v3.1.1](https://docs.coingecko.com/reference). <br>
+> For [CoinGecko Public/Demo API v3.0.1](https://docs.coingecko.com/v3.0.1/reference), please refer to branch [`v3.0.1`](https://github.com/cg-eesuhn/docs-coingecko/tree/v3.0.1)
+
 Integrates ReadMe's [Bi-directional Sync](https://docs.readme.com/main/docs/bi-directional-sync) to keep ReadMe dashboard and GitHub backup in sync. It includes linting with [Redocly](https://redocly.com/docs/cli/commands/lint) and sync scripts to manage different formats as such:
 
 - `reference/*.json` — Synced with ReadMe version in [docs.coingecko](https://docs.coingecko.com/)
 - `reference-yml/*.yml` — Local version for easier editing
+
+## Structure
+
+```sh
+.
+├── docs
+│   ├── Documentation
+│   └── Navigate the guide
+├── package.json
+├── reference
+│   ├── CoinGecko Pro API V3
+│   ├── On-Chain DEX API (Beta)
+│   ├── coingecko-pro-api-v3.json
+│   └── on-chain-dex-api-beta.json
+├── reference-yml
+│   ├── coingecko-pro-api-v3.yml
+│   └── on-chain-dex-api-beta.yml
+└── script
+```
 
 ## Usage
 
