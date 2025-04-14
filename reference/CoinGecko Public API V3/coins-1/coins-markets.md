@@ -29,4 +29,4 @@ next:
 > * Wildcard searches are not supported for lookup params (`ids`, `names`, `symbols`).
 > * Cache/Update Frequency:
 >   * Every 60 seconds for Public API.
->   * every 45 seconds for Pro API (Analyst, Lite, Pro, Enterprise).
+>   * Every 45 seconds for Pro API (Analyst, Lite, Pro, Enterprise).
